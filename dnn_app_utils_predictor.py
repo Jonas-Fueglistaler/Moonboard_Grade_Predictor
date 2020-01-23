@@ -1,12 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def testi():
-    print("funktioniiiert")
-
-###########################################################
-
-
 def load_moonboard(filename='moonboard.npz'):
     f = np.load(filename)
     x_train, y_train = f['x_train'], f['y_train']
