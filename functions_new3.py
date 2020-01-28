@@ -33,7 +33,7 @@ def interactive_selection():
         b.style.button_color = 'lightgreen'
         global hold_selection
         hold_selection.append(b.description)
-        print(hold_selection)
+        #print(hold_selection)
     
 
 #     def on_button_clicked(b):
