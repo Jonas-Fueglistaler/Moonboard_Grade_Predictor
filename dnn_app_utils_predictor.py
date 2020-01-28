@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 def load_moonboard(filename='moonboard.npz'):
     f = np.load(filename)
