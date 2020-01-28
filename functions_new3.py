@@ -34,22 +34,7 @@ def interactive_selection():
         global hold_selection
         hold_selection.append(b.description)
         #print(hold_selection)
-    
-
-#     def on_button_clicked(b):
-#         #click_counter += 1
-#         print(click_counter)
-#         print(np.mod(click_counter,2))
-#         print(b.style.button_color)
-#         if np.mod(click_counter, 2) == 0:
-#             global hold_selection
-#             hold_selection.append(b.description)
-#             b.style.button_color = 'lightgreen'
-#         else:
-#             #global hold_selection
-#             #hold_selection.append()
-#             b.style.button_color = None            
-            
+                    
                         
     for R in range(hold_key_matrix.shape[0]):    
         hold = hold_key_matrix[R,:].tolist() #convert to list, start with "18"
