@@ -53,7 +53,7 @@ def interactive_selection():
     def end_button_clicked(b):
         predict_grade_JF(hold_selection)
     
-    end_button = widgets.Button(description='Predict difficulty!', button_style='danger')
+    end_button = widgets.Button(description='Predict Grade!', button_style='danger')
     end_button.on_click(end_button_clicked)
     display(end_button)
     
